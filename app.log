@@ -1,0 +1,87 @@
+2025-03-22T00:00:14.157+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] sefYouseComp303401Assignment3Application : Starting YousefYouseComp303401Assignment3Application using Java 21.0.5 with PID 468295 (/home/titus-b/Desktop/Yousef_Yousef_COMP303401_Assignment/Yousef_Youse_COMP303401_Assignment3/Yousef_Youse_COMP303401_Assignment3/build/classes/java/main started by titus-b in /home/titus-b/Desktop/Yousef_Yousef_COMP303401_Assignment)
+2025-03-22T00:00:14.159+03:00 DEBUG 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] sefYouseComp303401Assignment3Application : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-22T00:00:14.161+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] sefYouseComp303401Assignment3Application : No active profile set, falling back to 1 default profile: "default"
+2025-03-22T00:00:15.037+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-22T00:00:15.131+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 4 JPA repository interfaces.
+2025-03-22T00:00:15.789+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 60890 (http)
+2025-03-22T00:00:15.806+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-22T00:00:15.806+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-22T00:00:15.855+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-22T00:00:15.855+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1643 ms
+2025-03-22T00:00:16.038+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-22T00:00:16.093+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-22T00:00:16.152+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-22T00:00:16.504+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-22T00:00:16.536+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-22T00:00:16.761+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e97f115
+2025-03-22T00:00:16.764+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-22T00:00:16.836+03:00  WARN 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-22T00:00:16.838+03:00  WARN 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-22T00:00:16.859+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-22T00:00:19.352+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-22T00:00:19.563+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-22T00:00:20.500+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-22T00:00:23.519+03:00  WARN 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-22T00:00:24.366+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 60890 (http) with context path '/'
+2025-03-22T00:00:24.382+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [main] sefYouseComp303401Assignment3Application : Started YousefYouseComp303401Assignment3Application in 10.84 seconds (process running for 11.7)
+2025-03-22T00:00:46.445+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [http-nio-60890-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-22T00:00:46.445+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [http-nio-60890-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-22T00:00:46.447+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [http-nio-60890-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-22T00:04:27.569+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [http-nio-60890-exec-10] c.y.y.r.AccountRestController            : Updating account with account number: 4
+2025-03-22T00:04:27.624+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [http-nio-60890-exec-8] c.y.y.r.AccountRestController            : Updating account with account number: 4
+2025-03-22T00:39:18.793+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [http-nio-60890-exec-1] c.y.y.r.CustomerRestController           : Updating customer with ID: 1
+2025-03-22T00:39:18.846+03:00 ERROR 468295 --- [Yousef_Youse_COMP303401_Assignment3] [http-nio-60890-exec-10] c.y.y.controllers.CustomerController     : Error updating customer: 500  on PUT request for "http://localhost:60890/api/customers/1": "{"message":"An unexpected error occurred","error":"Could not commit JPA transaction"}"
+2025-03-22T00:39:32.559+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [http-nio-60890-exec-3] c.y.y.r.CustomerRestController           : Updating customer with ID: 1
+2025-03-22T00:53:52.206+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-22T00:53:52.208+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-22T00:53:52.217+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-22T00:53:52.219+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-22T00:53:52.221+03:00  INFO 468295 --- [Yousef_Youse_COMP303401_Assignment3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-22T00:54:18.788+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] sefYouseComp303401Assignment3Application : Starting YousefYouseComp303401Assignment3Application using Java 21.0.5 with PID 472622 (/home/titus-b/Desktop/Yousef_Yousef_COMP303401_Assignment/Yousef_Youse_COMP303401_Assignment3/Yousef_Youse_COMP303401_Assignment3/build/classes/java/main started by titus-b in /home/titus-b/Desktop/Yousef_Yousef_COMP303401_Assignment)
+2025-03-22T00:54:18.791+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] sefYouseComp303401Assignment3Application : No active profile set, falling back to 1 default profile: "default"
+2025-03-22T00:54:19.767+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-22T00:54:19.848+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+2025-03-22T00:54:20.444+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 60890 (http)
+2025-03-22T00:54:20.459+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-22T00:54:20.459+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-22T00:54:20.504+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-22T00:54:20.505+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1646 ms
+2025-03-22T00:54:20.674+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-22T00:54:20.736+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-22T00:54:20.769+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-22T00:54:21.093+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-22T00:54:21.125+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-22T00:54:21.307+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@df7d1d4
+2025-03-22T00:54:21.310+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-22T00:54:21.361+03:00  WARN 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-22T00:54:21.362+03:00  WARN 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-22T00:54:21.381+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-22T00:54:22.469+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-22T00:54:22.556+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-22T00:54:22.967+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-22T00:54:24.379+03:00  WARN 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-22T00:54:24.842+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 60890 (http) with context path '/'
+2025-03-22T00:54:24.852+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [main] sefYouseComp303401Assignment3Application : Started YousefYouseComp303401Assignment3Application in 6.658 seconds (process running for 7.522)
+2025-03-22T00:54:32.139+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [http-nio-60890-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-22T00:54:32.140+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [http-nio-60890-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-22T00:54:32.142+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [http-nio-60890-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-22T00:54:46.886+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [http-nio-60890-exec-6] c.y.y.r.AccountRestController            : Updating account with account number: 8
+2025-03-22T01:01:45.948+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-22T01:01:45.951+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-22T01:01:45.959+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-22T01:01:45.961+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-22T01:01:45.967+03:00  INFO 472622 --- [Yousef_Youse_COMP303401_Assignment3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
